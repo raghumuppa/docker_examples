@@ -7,6 +7,6 @@ For defineing arguments at build stage, by default: Test
 
 <h5>Defining environmnets at container run</h5>
 
-For defineing environmnet at container run, by default: Test
+For defineing environments at container run, by default: Test
 <pre> docker container run -it -e NAME="name" "IMAGE-NAME"</pre>
 
