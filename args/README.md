@@ -1,1 +1,1 @@
-<h2>created for defining arguments and environmnets at the build stage and run stage<h2>
+<h2>created for defining arguments and environmnets at build stage and run stage<h2>
