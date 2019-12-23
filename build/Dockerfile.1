@@ -1,0 +1,14 @@
+FROM alpine:3.9 AS base
+
+RUN apk update 
+
+WORKDIR /test
+
+RUN touch test1 test2 test3
+
+## Copying file from base image to new alpine image to hide the data
+FROM alpine:3.9
+
+COPY --from=base /test/* /test/
+
+
